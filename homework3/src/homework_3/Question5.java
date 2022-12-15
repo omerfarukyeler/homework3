@@ -25,21 +25,31 @@ public class Question5 {
     
         int ascii = (int)karakter ;
         
-        if ( (65 >= karakter && 90 <= karakter) || (karakter >= 97 && karakter <= 122 ) ) {
+        if ( (ascii >= 65 && ascii <= 90) || (ascii >= 97 && ascii <= 122 ) ) {
         	
         	System.out.println("it's a letter . ");
         	
-        }     
-        
+       }                    
         	
         else {
         	
-        	System.out.println( "the entered value is not a letter.");
+       	System.out.println( "the entered value is not a letter.");
+
         }
         
         scan.close();
         	
         }
+
+	
+	
+
+
+// Character.isDigit (" karakter/letter /digit ") ;
+	
+// if (	Character.isDigit (" karakter/letter /digit ") {
+	
+//  system.out.println("letter/digit/karakter") 	
 		
          
          

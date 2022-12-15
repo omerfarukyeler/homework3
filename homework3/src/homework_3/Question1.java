@@ -25,13 +25,9 @@ public class Question1 {
 		
 		
 		
+				
 		
-		if ( sayi1==sayi2 || sayi2==sayi3 || sayi1==sayi3) {
-			
-			System.out.println("Please do not enter numbers with the same value!!!");
-		}		
-		
-		else if (sayi1 > sayi2 && sayi1 > sayi3) {
+		 if (sayi1 > sayi2 && sayi1 > sayi3) {
 			
 			
 			System.out.println("largest entered number "+ sayi1);

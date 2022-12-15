@@ -41,7 +41,7 @@ public class Question3 {
 		    
 		    case 'ç'  :
 		    	
-		    	System.out.println("carsamba");
+		    	System.out.println("çarsamba");
 		        
 		    	break ;
 		    	
